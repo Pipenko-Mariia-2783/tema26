@@ -139,7 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CarNumber.cpp" />
     <ClCompile Include="tema26.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
